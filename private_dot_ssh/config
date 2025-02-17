@@ -1,2 +1,12 @@
 Host git-ssh.fdnw.net
   ProxyCommand $(which cloudflared) access ssh --hostname %h
+  UseKeychain yes
+  AddKeysToAgent yes
+  IdentityFile ~/.ssh/id_ed25519
+
+Host github.com
+  HostName github.com
+  User git
+  IdentityFile ~/.ssh/id_ed25519
+  AddKeysToAgent yes
+  UseKeychain yes
