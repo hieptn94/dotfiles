@@ -5,11 +5,12 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 source $(brew --prefix)/share/antigen/antigen.zsh
 
 antigen use oh-my-zsh
+antigen theme agnoster
+
 antigen bundle git
 antigen bundle zsh-users/zsh-autosuggestions
 antigen bundle fzf
-
-antigen theme agnoster
+antigen bundle multirious/zsh-helix-mode@main
 
 antigen apply
 
@@ -20,7 +21,7 @@ antigen apply
 export PATH="/opt/homebrew/opt/rustup/bin:$PATH"
 
 # Default editor
-export EDITOR="nvim"
+export EDITOR="hx"
 
 # standard ML
 export PATH="/usr/local/smlnj/bin:$PATH"
