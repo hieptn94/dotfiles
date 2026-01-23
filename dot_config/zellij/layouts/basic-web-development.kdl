@@ -14,9 +14,5 @@ layout {
 	tab name="cli" {
 		
 	}
-	tab name="dev-server" {
-		pane command="pnpm" {
-			args "dev"
-		}
-	}
+	tab name="dev-server" {}
 }
