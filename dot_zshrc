@@ -10,7 +10,6 @@ antigen theme agnoster
 antigen bundle git
 antigen bundle zsh-users/zsh-autosuggestions
 antigen bundle fzf
-antigen bundle multirious/zsh-helix-mode@main
 
 antigen apply
 
