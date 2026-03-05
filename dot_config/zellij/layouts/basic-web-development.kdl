@@ -11,8 +11,7 @@ layout {
 	tab name="editor" {
 		pane edit="."
 	}
-	tab name="cli" {
-		
-	}
+	tab name="cli" {}
+	tab name="agent" {}
 	tab name="dev-server" {}
 }
