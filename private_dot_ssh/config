@@ -1,3 +1,5 @@
+Include /Users/hieptn94/.colima/ssh_config
+
 Host git-ssh.fdnw.net
   ProxyCommand $(which cloudflared) access ssh --hostname %h
   UseKeychain yes
