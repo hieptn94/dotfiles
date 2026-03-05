@@ -20,7 +20,7 @@ antigen apply
 export PATH="/opt/homebrew/opt/rustup/bin:$PATH"
 
 # Default editor
-export EDITOR="hx"
+export EDITOR="nvim"
 
 # standard ML
 export PATH="/usr/local/smlnj/bin:$PATH"
