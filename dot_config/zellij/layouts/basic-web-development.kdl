@@ -9,7 +9,7 @@ layout {
         }
     }
 	tab name="editor" {
-		pane edit="."
+		pane command="nvim"
 	}
 	tab name="agent" {}
 	tab name="cli" {}
