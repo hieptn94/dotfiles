@@ -1,39 +1,18 @@
-# homebrew
-eval "$(/opt/homebrew/bin/brew shellenv)"
+export ZSH="$HOME/.oh-my-zsh"
 
-# antigen
-source $(brew --prefix)/share/antigen/antigen.zsh
+ZSH_THEME="agnoster"
 
-antigen use oh-my-zsh
-antigen theme agnoster
+plugins=(
+  git
+  fzf
+  zsh-autosuggestions
+  zsh-vi-mode
+)
 
-antigen bundle git
-antigen bundle zsh-users/zsh-autosuggestions
-antigen bundle fzf
-antigen bundle jeffreytse/zsh-vi-mode
+source $ZSH/oh-my-zsh.sh
 
-antigen apply
-
-# Ocaml opam
-[[ ! -r "$HOME/.opam/opam-init/init.zsh" ]] || source "$HOME/.opam/opam-init/init.zsh" > /dev/null 2> /dev/null
-
-# Rust
-export PATH="/opt/homebrew/opt/rustup/bin:$PATH"
-
-# Default editor
 export EDITOR="nvim"
 
-# standard ML
-export PATH="/usr/local/smlnj/bin:$PATH"
-
-# pnpm
-export PNPM_HOME="/Users/hieptn94/Library/pnpm"
-case ":$PATH:" in
-  *":$PNPM_HOME:"*) ;;
-  *) export PATH="$PNPM_HOME:$PATH" ;;
-esac
-# pnpm end
-
-# .NET
 export PATH="$PATH:/Users/hieptn94/.dotnet/tools"
+
 eval "$(mise activate zsh)"
