@@ -8,6 +8,7 @@ return {
       typescriptreact = { "oxfmt" },
       json = { "oxfmt" },
       vue = { "oxfmt" },
+      css = { "oxfmt" },
     },
   },
 }
