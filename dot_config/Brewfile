@@ -1,54 +1,63 @@
-tap "murdercode/presto"
 tap "oven-sh/bun"
-brew "antigen"
-brew "automake"
+# Manage your dotfiles across multiple diverse machines, securely
 brew "chezmoi"
-brew "cloudflared"
+# Container runtimes on MacOS (and Linux) with minimal setup
 brew "colima"
+# Pack, ship and run any application as a lightweight container
 brew "docker"
+# Docker CLI plugin for extended build capabilities with BuildKit
 brew "docker-buildx"
+# Isolated development environments using Docker
 brew "docker-compose"
-brew "fd"
+# XML 1.0 parser
+brew "expat"
+# Command-line fuzzy finder written in Go
 brew "fzf"
-brew "xz"
-brew "gemini-cli"
-brew "gh"
-brew "gnupg"
+# Distributed revision control system
+brew "git"
+# Open source programming language to build simple/reliable/efficient software
 brew "go"
-brew "libpng"
-brew "mdv"
+# Polyglot runtime manager (asdf rust clone)
 brew "mise"
+# Ambitious Vim-fork focused on extensibility and agility
 brew "neovim"
-brew "opam"
+# Library for command-line editing
+brew "readline"
+# General-purpose data compression with high compression ratio
+brew "xz"
+# Spec-driven development (SDD) for AI coding assistants
+brew "openspec"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.14"
+# Search tool like grep and The Silver Searcher
 brew "ripgrep"
-brew "rustup"
-brew "tldr"
-brew "tree"
+# Pluggable terminal workspace, with terminal multiplexer as the base feature
 brew "zellij"
-brew "zsh-autosuggestions"
-brew "oven-sh/bun/bun"
-cask "basictex"
-cask "claude"
-cask "claude-code"
+# Incredibly fast JavaScript runtime, bundler, transpiler and package manager - all in one.
+brew "oven-sh/bun/bun", trusted: true
+# Free app that makes your Internet safer
 cask "cloudflare-warp"
+# Universal database tool and SQL client
+cask "dbeaver-community"
+# Voice and text chat software
 cask "discord"
-cask "dotnet-sdk"
-cask "elmedia-player"
-cask "figma"
 cask "font-fira-code"
 cask "font-fira-code-nerd-font"
 cask "font-hack-nerd-font"
+# Set of tools to manage resources and applications hosted on Google Cloud
 cask "gcloud-cli"
+# Terminal emulator that uses platform-native UI and GPU acceleration
 cask "ghostty"
+# Web browser
 cask "google-chrome"
-cask "json-viewer"
-cask "linear-linear"
-cask "notion"
+# Native desktop AI assistant from Google
+cask "google-gemini"
+# Knowledge base that works on top of a local folder of plain text Markdown files
 cask "obsidian"
+# Collaboration platform for API development
 cask "postman"
-cask "slack"
+# Messaging app with a focus on speed and security
 cask "telegram"
+# Open-source BitTorrent client
 cask "transmission"
-cask "whatsapp"
-cask "zalo"
-cask "zoom"
+npm "corepack"
