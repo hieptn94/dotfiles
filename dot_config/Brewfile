@@ -1,8 +1,9 @@
-tap "oven-sh/bun"
 # Manage your dotfiles across multiple diverse machines, securely
 brew "chezmoi"
 # Container runtimes on MacOS (and Linux) with minimal setup
 brew "colima"
+# General-purpose data compression with high compression ratio
+brew "xz"
 # Pack, ship and run any application as a lightweight container
 brew "docker"
 # Docker CLI plugin for extended build capabilities with BuildKit
@@ -15,26 +16,18 @@ brew "expat"
 brew "fzf"
 # Distributed revision control system
 brew "git"
-# Open source programming language to build simple/reliable/efficient software
-brew "go"
 # Polyglot runtime manager (asdf rust clone)
 brew "mise"
 # Ambitious Vim-fork focused on extensibility and agility
 brew "neovim"
 # Library for command-line editing
 brew "readline"
-# General-purpose data compression with high compression ratio
-brew "xz"
-# Spec-driven development (SDD) for AI coding assistants
-brew "openspec"
-# Interpreted, interactive, object-oriented programming language
-brew "python@3.14"
 # Search tool like grep and The Silver Searcher
 brew "ripgrep"
-# Pluggable terminal workspace, with terminal multiplexer as the base feature
-brew "zellij"
-# Incredibly fast JavaScript runtime, bundler, transpiler and package manager - all in one.
-brew "oven-sh/bun/bun", trusted: true
+# Terminal multiplexer
+brew "tmux"
+# Manage complex tmux sessions easily
+brew "tmuxinator"
 # Free app that makes your Internet safer
 cask "cloudflare-warp"
 # Universal database tool and SQL client
@@ -58,6 +51,3 @@ cask "obsidian"
 cask "postman"
 # Messaging app with a focus on speed and security
 cask "telegram"
-# Open-source BitTorrent client
-cask "transmission"
-npm "corepack"
