@@ -1,0 +1,11 @@
+# /Users/hieptn94/.config/tmuxinator/PurpleOS.be.yml
+
+name: PurpleOS.be
+root: ~/Workspace/Personal/backend-node
+windows:
+  - editor:
+      layout: main-horizontal
+      panes:
+        - editor: nvim
+        - cli:
+  - server: pnpm install && pnpm run dev
